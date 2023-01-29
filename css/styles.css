@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+#container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/*header*/
+
+.header-inner {
+  min-height: 249px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger-icon {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:first-child) {
+  margin-left: 80px;
+}
+
+.nav-item-link {
+  font-size: 20px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.main-wrap-text {
+  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-text {
+  font-size: 28px;
+}
+/******history elements*****/
+
+.text-history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.wrap-text-history {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/******main blocks******/
+.main-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.main-block:first-child {
+  margin-right: 28px;
+}
+.main-block {
+  min-width: 500px;
+  min-height: 394px;
+  background-color: #000;
+  margin-bottom: 60px;
+}
+.first-text {
+  color: #fff;
+  padding: 94px 50px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.text-block {
+  padding: 50px;
+}
+.value {
+  font-size: 48px;
+  line-height: 1.2;
+  display: inline-flex;
+}
+
+/****footer***/
+.contact-area {
+  max-width: 1022px;
+  min-height: 120px;
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+}
+.contact-us {
+  margin-bottom: 100px;
+}
+.textarea {
+  height: 100%;
+  margin-left: 31px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.2;
+  resize: none;
+  opacity: 0.5;
+  color: #000;
+  border: none;
+  outline: none;
+}
+.button {
+  margin-right: 30px;
+  padding: 13px 30px;
+  min-width: 200px;
+  max-width: 500px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 28px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
